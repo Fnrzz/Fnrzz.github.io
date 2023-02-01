@@ -4,7 +4,7 @@ import image from "../assets/img/pp.jpeg";
 const CardGlow = () => {
   return (
     <div class="card">
-      <img src={image} className="rounded-circle img-thumbnail" />
+      <img src={image} className="rounded-circle" />
     </div>
   );
 };

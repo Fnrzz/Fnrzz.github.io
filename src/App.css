@@ -44,7 +44,6 @@
 .App {
   background-color: #121212;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 /* Heading */
@@ -102,13 +101,37 @@
 }
 
 /* Skills */
-#skills {
+.skills-section {
   height: 50vw;
   background-image: url("./assets/img/bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.skills-title {
+  display: flex;
+  height: 13vw;
+  align-items: center;
+  justify-content: center;
+  font-family: "coopbl";
+  font-size: 3vw;
+}
+
+.skills-wrapper {
+  height: 25vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-wrapper img {
+  width: 8vw;
+  animation: float 6s ease-in-out infinite;
+}
+
+.skills-column {
+  display: flex;
+  justify-content: center;
+}
 /* Responsive */
 @media screen and (max-width: 994px) {
   .shadow_btn {

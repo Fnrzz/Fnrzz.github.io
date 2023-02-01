@@ -7,6 +7,12 @@ import { Col, Container, Row } from "react-bootstrap";
 
 // Image
 import headerImg from "./assets/img/header-img.svg";
+import js from "./assets/img/js.png";
+import laravel from "./assets/img/laravel.png";
+import html from "./assets/img/html.png";
+import css from "./assets/img/css.png";
+import react from "./assets/img/react.png";
+import php from "./assets/img/php.png";
 
 // Font
 import "./assets/fonts/COOPBL.ttf";
@@ -17,7 +23,7 @@ import Navigationbar from "./components/Navigationbar";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Navigationbar />
       <section id="banner">
         <Container>
@@ -65,12 +71,46 @@ const App = () => {
           </Col>
         </Row>
       </section>
-      <section id="skills">
-        <Container>
-          <Row>
-            <Col></Col>
-          </Row>
-        </Container>
+      <section className="skills-section">
+        <Row>
+          <Col>
+            <div className="skills-title text-white" id="skills">
+              Kemampuan Saya
+            </div>
+          </Col>
+        </Row>
+        <Row className="skills-wrapper">
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={html} className="img-fluid " />
+            </div>
+          </Col>
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={css} className="img-fluid " />
+            </div>
+          </Col>
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={js} className="img-fluid " />
+            </div>
+          </Col>
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={laravel} className="img-fluid " />
+            </div>
+          </Col>
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={react} className="img-fluid " />
+            </div>
+          </Col>
+          <Col xs="2" className="skills-column">
+            <div className="skills-img">
+              <img src={php} className="img-fluid " />
+            </div>
+          </Col>
+        </Row>
       </section>
     </div>
   );

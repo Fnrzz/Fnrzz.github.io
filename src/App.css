@@ -1,38 +1,122 @@
+/* Font */
+@font-face {
+  font-family: "coopbl"; /*Can be any text*/
+  src: local("COOPBL"), url("./assets/fonts/COOPBL.ttf") format("truetype");
+}
+
+/* Button */
+.shadow_btn {
+  font-family: "coopbl";
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow_btn {
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+.shadow_btn:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
+    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+/* Animate Float */
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 .App {
-  text-align: center;
+  background-color: #121212;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Heading */
+#banner {
+  height: 50vw;
+  background-image: url("./assets/img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.heading-wraper {
+  height: 50vw;
   align-items: center;
+}
+
+.heading-text {
+  font-family: "coopbl";
+  font-size: 4vw;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0.8vw;
+}
+
+.heading-image {
+  width: 30vw;
+  animation: float 6s ease-in-out infinite;
+}
+
+/* About */
+.about-section {
+  padding-bottom: 10vw;
+}
+
+.about-title {
+  font-family: "coopbl";
+  font-size: 3vw;
+}
+
+.about-wrapper {
+  height: 13vw;
+  align-items: center;
+}
+
+.about-column {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.about-text {
+  font-family: "Times New Roman", Times, serif;
   color: white;
+  font-size: 1.5vw;
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+/* Skills */
+#skills {
+  height: 50vw;
+  background-image: url("./assets/img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive */
+@media screen and (max-width: 994px) {
+  .shadow_btn {
+    font-size: 8px;
+    padding: 5px 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .heading-text {
+    margin-bottom: 0px;
   }
 }

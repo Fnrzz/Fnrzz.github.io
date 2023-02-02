@@ -20,6 +20,7 @@ import "./assets/fonts/COOPBL.ttf";
 // Components
 import CardGlow from "./components/CardGlow";
 import Navigationbar from "./components/Navigationbar";
+import Cards from "./components/Card";
 
 const App = () => {
   return (
@@ -29,7 +30,7 @@ const App = () => {
         <Container>
           <Row className="heading-wraper">
             <Col className="text-center">
-              <div className="heading-text text-white ">Hai,Saya Farid</div>
+              <div className="heading-text text-white ">Hai, Saya Farid</div>
               <button class="shadow_btn">
                 <a href="#about" className="text-decoration-none text-white">
                   Tentang Saya
@@ -56,17 +57,13 @@ const App = () => {
           </Col>
           <Col xs="6" className="about-column">
             <div className="about-text">
-              Selamat datang di portofolio saya! Nama saya Farid Nur Raidananda
-              dan saya adalah Mahasiswa Teknik Infromatika di Universitas
-              Muhammadiyah Surakarta. Saya memulai belajar pemrograman sejak smp
-              dan saya sangat bersemangat tentang pemrograman. Saya memiliki
-              latar belakang yang kuat dalam pemrograman. Saya pernah beberapa
-              kali menjuarai kompetisi robotik dan beberapa lomba yang masih
-              terkait dengan pemrograman. dan saya selalu mencari tantangan baru
-              untuk meningkatkan dan memperluas pengetahuan saya. Saya sangat
-              senang dapat memperlihatkan karya dan keterampilan saya melalui
-              portofolio ini dan saya sangat berharap dapat terhubung dengan
-              kesempatan baru di masa depan.
+              Selamat datang di portofolio saya! Nama saya Farid Nur Raidananda.
+              Sebagai mahasiswa Teknik Informatika di Universitas Muhammadiyah
+              Surakarta, saya memiliki minat dan latar belakang kuat dalam
+              pemrograman. Saya pernah menjuarai beberapa kompetisi robotik dan
+              lomba terkait. Terus mencari tantangan baru untuk tumbuh, saya
+              ingin memperlihatkan karya dan keterampilan melalui portofolio ini
+              dan berharap terhubung dengan peluang baru.
             </div>
           </Col>
         </Row>
@@ -83,32 +80,52 @@ const App = () => {
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={html} className="img-fluid " />
+              <div className="skills-name text-white">HTML</div>
             </div>
           </Col>
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={css} className="img-fluid " />
+              <div className="skills-name text-white">CSS</div>
             </div>
           </Col>
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={js} className="img-fluid " />
+              <div className="skills-name text-white">JavaScript</div>
             </div>
           </Col>
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={laravel} className="img-fluid " />
+              <div className="skills-name text-white">Laravel</div>
             </div>
           </Col>
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={react} className="img-fluid " />
+              <div className="skills-name text-white">React Js</div>
             </div>
           </Col>
           <Col xs="2" className="skills-column">
             <div className="skills-img">
               <img src={php} className="img-fluid " />
+              <div className="skills-name text-white">PHP</div>
             </div>
+          </Col>
+        </Row>
+      </section>
+      <section className="projects-section">
+        <Row>
+          <Col>
+            <div className="projects-title text-white" id="projects">
+              Projects Saya
+            </div>
+          </Col>
+        </Row>
+        <Row className="projects-wrapper">
+          <Col className="projects-column">
+            <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
           </Col>
         </Row>
       </section>

@@ -1,0 +1,10 @@
+.card {
+  width: 35vw;
+  border-radius: 10px;
+  padding: 0.5vw;
+}
+
+.card-image {
+  border-radius: 10px;
+  width: 100%;
+}

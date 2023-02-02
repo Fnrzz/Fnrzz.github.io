@@ -1,4 +1,4 @@
-.card {
+.card-glow {
   width: 22vw;
   height: 30vw;
   background: #121212;
@@ -11,12 +11,12 @@
   box-shadow: 0 0 25px rgb(0, 140, 255);
 }
 
-.card img {
+.card-glow img {
   z-index: 1;
   width: 50%;
 }
 
-.card::before {
+.card-glow::before {
   content: "";
   position: absolute;
   width: 5vw;
@@ -40,7 +40,7 @@
   }
 }
 
-.card::after {
+.card-glow::after {
   content: "";
   position: absolute;
   background: #121212;

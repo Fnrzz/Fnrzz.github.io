@@ -17,7 +17,7 @@ const Navigationbar = () => {
             </a>
           </Col>
           <Col xs="3" className="menu-column">
-            <a className="menu" href="">
+            <a className="menu" href="#projects">
               <i className="bi bi-code-slash text-info"></i>
             </a>
           </Col>

@@ -96,7 +96,7 @@
 .about-text {
   font-family: "Times New Roman", Times, serif;
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   width: 80%;
 }
 
@@ -110,7 +110,7 @@
 
 .skills-title {
   display: flex;
-  height: 13vw;
+  height: 15vw;
   align-items: center;
   justify-content: center;
   font-family: "coopbl";
@@ -118,20 +118,55 @@
 }
 
 .skills-wrapper {
-  height: 25vw;
+  height: 30vw;
   align-items: center;
   justify-content: center;
 }
 
 .skills-wrapper img {
   width: 8vw;
-  animation: float 6s ease-in-out infinite;
+  animation: float 10s ease-in-out infinite;
 }
 
 .skills-column {
   display: flex;
   justify-content: center;
 }
+
+.skills-name {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-family: "coopbl";
+  font-size: 1.3vw;
+  margin-top: 10px;
+}
+
+/* Projects */
+.projects-section {
+  height: 50vw;
+}
+
+.projects-title {
+  display: flex;
+  height: 15vw;
+  align-items: center;
+  justify-content: center;
+  font-family: "coopbl";
+  font-size: 3vw;
+}
+
+.projects-wrapper {
+  height: 25vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-column {
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive */
 @media screen and (max-width: 994px) {
   .shadow_btn {

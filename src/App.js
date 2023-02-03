@@ -123,11 +123,20 @@ const App = () => {
             </div>
           </Col>
         </Row>
-        <Row className="projects-wrapper">
-          <Col className="projects-column">
+        <div className="projects-wrapper">
+          <div className="projects-column">
             <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
-          </Col>
-        </Row>
+          </div>
+          <div className="projects-column">
+            <Cards url="https://github.com/Fnrzz/React-Movie" img="Movie" />
+          </div>
+          <div className="projects-column">
+            <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
+          </div>
+          <div className="projects-column">
+            <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
+          </div>
+        </div>
       </section>
     </div>
   );

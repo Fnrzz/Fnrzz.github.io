@@ -131,10 +131,10 @@ const App = () => {
             <Cards url="https://github.com/Fnrzz/React-Movie" img="Movie" />
           </div>
           <div className="projects-column">
-            <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
+            <Cards url="https://github.com/Fnrzz/MyStore" img="Ecommerce" />
           </div>
           <div className="projects-column">
-            <Cards url="https://github.com/Fnrzz/BookStore" img="BookStore" />
+            <Cards url="https://github.com/Fnrzz/Company" img="BookStore" />
           </div>
         </div>
       </section>

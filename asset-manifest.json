@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48ca9bc3.css",
+    "main.js": "/static/js/main.d24d7f2f.js",
+    "static/js/787.ae61a12f.chunk.js": "/static/js/787.ae61a12f.chunk.js",
+    "static/media/BookStore.png": "/static/media/BookStore.1292621381a08c2d281c.png",
+    "static/media/Movie.png": "/static/media/Movie.6b0cee8d4015c4090301.png",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.b924ac69491801518032.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/react.png": "/static/media/react.3e9820dc44ddde88975e.png",
+    "static/media/COOPBL.ttf": "/static/media/COOPBL.873d07107afe46535602.ttf",
+    "static/media/bg2.png": "/static/media/bg2.7bd67c0f73571d0acc02.png",
+    "static/media/pp.jpeg": "/static/media/pp.ca8c38effc74f41215d7.jpeg",
+    "static/media/html.png": "/static/media/html.018f9b3317c59ee9423c.png",
+    "static/media/css.png": "/static/media/css.7cc11fabcde86a63b688.png",
+    "static/media/js.png": "/static/media/js.4eed4b5e49ead12295bd.png",
+    "static/media/laravel.png": "/static/media/laravel.279e3fcb19d440713887.png",
+    "static/media/php.png": "/static/media/php.bc22229c213d15c55eb2.png",
+    "index.html": "/index.html",
+    "main.48ca9bc3.css.map": "/static/css/main.48ca9bc3.css.map",
+    "main.d24d7f2f.js.map": "/static/js/main.d24d7f2f.js.map",
+    "787.ae61a12f.chunk.js.map": "/static/js/787.ae61a12f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ca9bc3.css",
+    "static/js/main.d24d7f2f.js"
+  ]
+}

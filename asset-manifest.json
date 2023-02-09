@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.48ca9bc3.css",
-    "main.js": "/static/js/main.b6911154.js",
+    "main.js": "/static/js/main.49d07386.js",
     "static/js/787.ae61a12f.chunk.js": "/static/js/787.ae61a12f.chunk.js",
+    "static/media/pp.png": "/static/media/pp.d66a8199842d1a9c5036.png",
     "static/media/BookStore.png": "/static/media/BookStore.1292621381a08c2d281c.png",
     "static/media/Movie.png": "/static/media/Movie.6b0cee8d4015c4090301.png",
     "static/media/Ecommerce.png": "/static/media/Ecommerce.b924ac69491801518032.png",
@@ -14,7 +15,6 @@
     "static/media/react.png": "/static/media/react.3e9820dc44ddde88975e.png",
     "static/media/COOPBL.ttf": "/static/media/COOPBL.873d07107afe46535602.ttf",
     "static/media/bg2.png": "/static/media/bg2.7bd67c0f73571d0acc02.png",
-    "static/media/pp.jpeg": "/static/media/pp.ca8c38effc74f41215d7.jpeg",
     "static/media/html.png": "/static/media/html.018f9b3317c59ee9423c.png",
     "static/media/css.png": "/static/media/css.7cc11fabcde86a63b688.png",
     "static/media/js.png": "/static/media/js.4eed4b5e49ead12295bd.png",
@@ -22,11 +22,11 @@
     "static/media/php.png": "/static/media/php.bc22229c213d15c55eb2.png",
     "index.html": "/index.html",
     "main.48ca9bc3.css.map": "/static/css/main.48ca9bc3.css.map",
-    "main.b6911154.js.map": "/static/js/main.b6911154.js.map",
+    "main.49d07386.js.map": "/static/js/main.49d07386.js.map",
     "787.ae61a12f.chunk.js.map": "/static/js/787.ae61a12f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48ca9bc3.css",
-    "static/js/main.b6911154.js"
+    "static/js/main.49d07386.js"
   ]
 }

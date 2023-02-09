@@ -1,5 +1,5 @@
 import "../assets/css/cardGlow.css";
-import image from "../assets/img/pp.jpeg";
+import image from "../assets/img/pp.png";
 
 const CardGlow = () => {
   return (

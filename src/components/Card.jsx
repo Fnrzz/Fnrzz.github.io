@@ -7,6 +7,7 @@ import { Card } from "react-bootstrap";
 import BookStore from "../assets/img/BookStore.png";
 import Movie from "../assets/img/Movie.png";
 import Ecommerce from "../assets/img/Ecommerce.png";
+import Company from "../assets/img/Company.png";
 
 const Cards = (props) => {
   const [Img, setImg] = useState();
@@ -20,6 +21,9 @@ const Cards = (props) => {
         break;
       case "Ecommerce":
         setImg(Ecommerce);
+        break;
+      case "Company":
+        setImg(Company);
         break;
     }
   });

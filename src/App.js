@@ -134,7 +134,7 @@ const App = () => {
             <Cards url="https://github.com/Fnrzz/MyStore" img="Ecommerce" />
           </div>
           <div className="projects-column">
-            <Cards url="https://github.com/Fnrzz/Company" img="BookStore" />
+            <Cards url="https://github.com/Fnrzz/Company" img="Company" />
           </div>
         </div>
       </section>

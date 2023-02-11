@@ -1,0 +1,32 @@
+.card-contact {
+  width: 80%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.card-contact-label {
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.card-contact-button {
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 994px) {
+  .card-contact {
+    padding: 0;
+  }
+  .card-contact-label {
+    font-size: 2vw;
+  }
+  .card-contact-button {
+    font-size: 2vw;
+    width: 100%;
+  }
+  .card-contact-input {
+    height: 4vw;
+    font-size: 2vw;
+  }
+}

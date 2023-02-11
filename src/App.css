@@ -209,6 +209,18 @@
   margin-right: 15px;
 }
 
+/* Contact */
+.contact-section {
+  height: 70vw;
+  background-image: url("./assets/img/bg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-wrapper {
+  display: flex;
+  height: 30vw;
+  align-items: center;
+}
 /* Responsive */
 @media screen and (max-width: 994px) {
   .shadow_btn {

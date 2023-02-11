@@ -29,7 +29,7 @@ const Cards = (props) => {
   });
   return (
     <a href={props.url}>
-      <Card>
+      <Card className="card-projects">
         <img src={Img} className="card-image" />
       </Card>
     </a>

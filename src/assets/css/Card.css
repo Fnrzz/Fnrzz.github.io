@@ -1,4 +1,4 @@
-.card {
+.card-projects {
   width: 35vw;
   border-radius: 10px;
   padding: 0.5vw;
@@ -9,6 +9,6 @@
   width: 100%;
 }
 
-.card:hover {
+.card-projects:hover {
   scale: 1.05;
 }

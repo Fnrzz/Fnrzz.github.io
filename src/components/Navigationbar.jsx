@@ -22,7 +22,7 @@ const Navigationbar = () => {
             </a>
           </Col>
           <Col xs="3" className="menu-column">
-            <a className="menu" href="">
+            <a className="menu" href="#contact">
               <i className="bi bi-person-lines-fill text-info"></i>
             </a>
           </Col>

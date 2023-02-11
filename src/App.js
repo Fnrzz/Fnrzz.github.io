@@ -21,6 +21,7 @@ import "./assets/fonts/COOPBL.ttf";
 import CardGlow from "./components/CardGlow";
 import Navigationbar from "./components/Navigationbar";
 import Cards from "./components/Card";
+import CardContact from "./components/CardContact";
 
 const App = () => {
   return (
@@ -137,6 +138,20 @@ const App = () => {
             <Cards url="https://github.com/Fnrzz/Company" img="Company" />
           </div>
         </div>
+      </section>
+      <section className="contact-section">
+        <Row>
+          <Col>
+            <div className="projects-title text-white" id="contact">
+              Hubungi Saya
+            </div>
+          </Col>
+        </Row>
+        <Row className="contact-wrapper">
+          <Col xs={6} className="d-flex justify-content-center">
+            <CardContact />
+          </Col>
+        </Row>
       </section>
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eed6c99.css",
-    "main.js": "/static/js/main.49d07386.js",
+    "main.css": "/static/css/main.20158d9e.css",
+    "main.js": "/static/js/main.a37a5bbf.js",
     "static/js/787.ae61a12f.chunk.js": "/static/js/787.ae61a12f.chunk.js",
     "static/media/pp.png": "/static/media/pp.d66a8199842d1a9c5036.png",
     "static/media/BookStore.png": "/static/media/BookStore.1292621381a08c2d281c.png",
@@ -10,6 +10,7 @@
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/Company.png": "/static/media/Company.26acc0ef101facd10d00.png",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bg3.png": "/static/media/bg3.23fc73ae10e68df551e4.png",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/react.png": "/static/media/react.3e9820dc44ddde88975e.png",
@@ -21,12 +22,12 @@
     "static/media/laravel.png": "/static/media/laravel.279e3fcb19d440713887.png",
     "static/media/php.png": "/static/media/php.bc22229c213d15c55eb2.png",
     "index.html": "/index.html",
-    "main.4eed6c99.css.map": "/static/css/main.4eed6c99.css.map",
-    "main.49d07386.js.map": "/static/js/main.49d07386.js.map",
+    "main.20158d9e.css.map": "/static/css/main.20158d9e.css.map",
+    "main.a37a5bbf.js.map": "/static/js/main.a37a5bbf.js.map",
     "787.ae61a12f.chunk.js.map": "/static/js/787.ae61a12f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eed6c99.css",
-    "static/js/main.49d07386.js"
+    "static/css/main.20158d9e.css",
+    "static/js/main.a37a5bbf.js"
   ]
 }

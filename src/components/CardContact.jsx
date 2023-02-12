@@ -7,13 +7,13 @@ const CardContact = () => {
     <Card className="card-contact">
       <Card.Body>
         <Form>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
             <Form.Label className="card-contact-label ">
               Alamat Email :
             </Form.Label>
             <Form.Control type="email" className="card-contact-input" />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
             <Form.Label className="card-contact-label ">Pesan :</Form.Label>
             <Form.Control
               as="textarea"

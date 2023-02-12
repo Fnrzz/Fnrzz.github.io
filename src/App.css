@@ -216,19 +216,49 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .contact-wrapper {
   display: flex;
   height: 30vw;
   align-items: center;
 }
+
+.contact-title {
+  display: flex;
+  height: 10vw;
+  align-items: center;
+  justify-content: center;
+  font-family: "coopbl";
+  font-size: 3vw;
+}
+
+.contact-icon {
+  color: #27213e;
+
+  font-size: 5vw;
+}
+
+.contact-icon:hover {
+  color: white;
+}
+
+.contact-title-column {
+  margin-bottom: 10px;
+  font-family: "coopbl";
+  font-size: 2vw;
+}
+
 /* Responsive */
 @media screen and (max-width: 994px) {
   .shadow_btn {
-    font-size: 8px;
-    padding: 5px 10px;
+    display: none;
   }
 
   .heading-text {
     margin-bottom: 0px;
+  }
+
+  .contact-title-column {
+    font-size: 3vw;
   }
 }

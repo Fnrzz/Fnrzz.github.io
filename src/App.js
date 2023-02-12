@@ -142,7 +142,7 @@ const App = () => {
       <section className="contact-section">
         <Row>
           <Col>
-            <div className="projects-title text-white" id="contact">
+            <div className="contact-title text-white" id="contact">
               Hubungi Saya
             </div>
           </Col>
@@ -150,6 +150,33 @@ const App = () => {
         <Row className="contact-wrapper">
           <Col xs={6} className="d-flex justify-content-center">
             <CardContact />
+          </Col>
+          <Col xs={6}>
+            <Row>
+              <div className="contact-title-column text-white">Sosmed Saya</div>
+            </Row>
+            <Row>
+              <Col className="contact-column">
+                <a href="" className="contact-icon">
+                  <i className="bi bi-github"></i>
+                </a>
+              </Col>
+              <Col className="contact-column">
+                <a href="" className="contact-icon">
+                  <i className="bi bi-instagram"></i>
+                </a>
+              </Col>
+              <Col className="contact-column">
+                <a href="" className="contact-icon">
+                  <i className="bi bi-tiktok"></i>
+                </a>
+              </Col>
+              <Col className="contact-column">
+                <a href="" className="contact-icon">
+                  <i className="bi bi-twitter"></i>
+                </a>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </section>

@@ -211,7 +211,7 @@
 
 /* Contact */
 .contact-section {
-  height: 70vw;
+  height: 50vw;
   background-image: url("./assets/img/bg3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -233,13 +233,12 @@
 }
 
 .contact-icon {
-  color: #27213e;
-
+  color: white;
   font-size: 5vw;
 }
 
 .contact-icon:hover {
-  color: white;
+  color: #27213e;
 }
 
 .contact-title-column {
@@ -260,5 +259,9 @@
 
   .contact-title-column {
     font-size: 3vw;
+  }
+
+  .contact-section {
+    height: 70vw;
   }
 }

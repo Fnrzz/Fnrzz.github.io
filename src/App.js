@@ -157,22 +157,28 @@ const App = () => {
             </Row>
             <Row>
               <Col className="contact-column">
-                <a href="" className="contact-icon">
+                <a href="https://github.com/Fnrzz" className="contact-icon">
                   <i className="bi bi-github"></i>
                 </a>
               </Col>
               <Col className="contact-column">
-                <a href="" className="contact-icon">
+                <a
+                  href="https://www.instagram.com/massduun/"
+                  className="contact-icon"
+                >
                   <i className="bi bi-instagram"></i>
                 </a>
               </Col>
               <Col className="contact-column">
-                <a href="" className="contact-icon">
+                <a
+                  href="https://www.tiktok.com/@fnrzzz"
+                  className="contact-icon"
+                >
                   <i className="bi bi-tiktok"></i>
                 </a>
               </Col>
               <Col className="contact-column">
-                <a href="" className="contact-icon">
+                <a className="contact-icon">
                   <i className="bi bi-twitter"></i>
                 </a>
               </Col>

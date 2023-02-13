@@ -10,8 +10,13 @@
 }
 
 .card-contact-button {
+  margin-top: 10px;
   border-radius: 15px;
   font-weight: bold;
+}
+
+.card-contact-alert {
+  font-size: 1vw;
 }
 
 @media screen and (max-width: 994px) {
@@ -19,6 +24,9 @@
     padding: 0;
   }
   .card-contact-label {
+    font-size: 2vw;
+  }
+  .card-contact-alert {
     font-size: 2vw;
   }
   .card-contact-button {

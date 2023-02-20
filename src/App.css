@@ -220,7 +220,13 @@
 .contact-wrapper {
   display: flex;
   height: 30vw;
+  justify-content: center;
   align-items: center;
+}
+
+.contact-column{
+  display: flex;
+  justify-content: center;
 }
 
 .contact-title {
@@ -241,12 +247,6 @@
   color: #27213e;
 }
 
-.contact-title-column {
-  margin-bottom: 10px;
-  font-family: "coopbl";
-  font-size: 2vw;
-}
-
 /* Responsive */
 @media screen and (max-width: 994px) {
   .shadow_btn {
@@ -257,11 +257,4 @@
     margin-bottom: 0px;
   }
 
-  .contact-title-column {
-    font-size: 3vw;
-  }
-
-  .contact-section {
-    height: 70vw;
-  }
 }

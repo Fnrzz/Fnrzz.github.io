@@ -143,46 +143,33 @@ const App = () => {
         <Row>
           <Col>
             <div className="contact-title text-white" id="contact">
-              Hubungi Saya
+              Sosmed Saya
             </div>
           </Col>
         </Row>
         <Row className="contact-wrapper">
-          <Col xs={6} className="d-flex justify-content-center">
-            <CardContact />
+          <Col className="contact-column">
+            <a href="https://github.com/Fnrzz" className="contact-icon">
+              <i className="bi bi-github"></i>
+            </a>
           </Col>
-          <Col xs={6}>
-            <Row>
-              <div className="contact-title-column text-white">Sosmed Saya</div>
-            </Row>
-            <Row>
-              <Col className="contact-column">
-                <a href="https://github.com/Fnrzz" className="contact-icon">
-                  <i className="bi bi-github"></i>
-                </a>
-              </Col>
-              <Col className="contact-column">
-                <a
-                  href="https://www.instagram.com/massduun/"
-                  className="contact-icon"
-                >
-                  <i className="bi bi-instagram"></i>
-                </a>
-              </Col>
-              <Col className="contact-column">
-                <a
-                  href="https://www.tiktok.com/@fnrzzz"
-                  className="contact-icon"
-                >
-                  <i className="bi bi-tiktok"></i>
-                </a>
-              </Col>
-              <Col className="contact-column">
-                <a className="contact-icon">
-                  <i className="bi bi-twitter"></i>
-                </a>
-              </Col>
-            </Row>
+          <Col className="contact-column">
+            <a
+              href="https://www.instagram.com/massduun/"
+              className="contact-icon"
+            >
+              <i className="bi bi-instagram"></i>
+            </a>
+          </Col>
+          <Col className="contact-column">
+            <a href="https://www.tiktok.com/@fnrzzz" className="contact-icon">
+              <i className="bi bi-tiktok"></i>
+            </a>
+          </Col>
+          <Col className="contact-column">
+            <a className="contact-icon">
+              <i className="bi bi-twitter"></i>
+            </a>
           </Col>
         </Row>
       </section>

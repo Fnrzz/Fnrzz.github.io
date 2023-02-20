@@ -21,7 +21,6 @@ import "./assets/fonts/COOPBL.ttf";
 import CardGlow from "./components/CardGlow";
 import Navigationbar from "./components/Navigationbar";
 import Cards from "./components/Card";
-import CardContact from "./components/CardContact";
 
 const App = () => {
   return (
